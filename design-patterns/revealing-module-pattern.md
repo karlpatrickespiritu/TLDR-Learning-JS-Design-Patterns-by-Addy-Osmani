@@ -1,4 +1,4 @@
-### Revealing Module Pattern
+# Revealing Module Pattern
 
 For complete reference, click [here](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript).
 

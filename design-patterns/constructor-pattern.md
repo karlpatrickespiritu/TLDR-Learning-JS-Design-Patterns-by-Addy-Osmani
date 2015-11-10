@@ -1,4 +1,9 @@
-(function () {
+
+### Constructor Pattern
+
+Object constructors are used to create specific types of objects - both preparing the object for use and accepting arguments which a constructor can use to set the values of member properties and methods when the object is first created.
+
+```javascript
 
     function Car(model, year, miles) {
         this.model = model
@@ -19,4 +24,8 @@
     console.log(civic.toString());
     console.log(mondeo.toString());
 
-})()
+```
+
+Above, a single instance of toString() will now be shared between all of the Car objects.
+
+For complete reference, click [here](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#constructorpatternjavascript).

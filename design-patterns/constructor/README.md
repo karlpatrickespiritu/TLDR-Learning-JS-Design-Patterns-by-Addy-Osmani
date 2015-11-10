@@ -32,6 +32,4 @@ Object constructors are used to create specific types of objects - both preparin
 
 Above, a single instance of toString() will now be shared between all of the Car objects.
 
-----------
-
 For complete reference, click [here](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#constructorpatternjavascript)

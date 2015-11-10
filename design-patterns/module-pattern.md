@@ -1,5 +1,8 @@
-
 ### Module Pattern
+
+For complete reference, click [here](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript).
+
+### TL;DR
 
 The Module pattern encapsulates "privacy", state and organization using closures. It provides a way of wrapping a mix of public and private methods and variables, protecting pieces from leaking into the global scope and accidentally colliding with another developer's interface. With this pattern, only a public API is returned, keeping everything else within the closure private.
 
@@ -41,5 +44,3 @@ When working with the Module pattern, we may find it useful to define a simple t
     console.log(myNamespace)
 
 ```
-
-For complete reference, click [here](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript).

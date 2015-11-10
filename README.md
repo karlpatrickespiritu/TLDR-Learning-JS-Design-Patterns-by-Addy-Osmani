@@ -1,2 +1,27 @@
-# js-design-patterns-by-Addy-Osmani
-just some notes from the book "Learning JavaScript Design Patterns" by Addy Osmani
+
+# TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani
+
+My **TL;DR** for the book [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#designpatternsjavascript) by [Addy Osmani](https://github.com/addyosmani)
+
+Note: I'm still reading the book :)
+
+# Anti-Patterns
+- Bad solution to a particular problem. 
+- Knowledge of anti-patterns is critical for success. Once we are able to recognize such anti-patterns, we're able to refactor our code to negate them so that the overall quality of our solutions improves instantly.
+
+# Categories Of Design Pattern
+### Creational
+Creational design patterns focus on handling object creation mechanisms where objects are created in a manner suitable for the situation we're working in.
+
+Patterns: *Constructor, Factory, Abstract, Prototype, Singleton and Builder*
+
+### Creational
+Structural patterns are concerned with object composition and typically identify simple ways to realize relationships between different objects.
+
+Patterns:  *Iterator, Mediator, Observer and Visitor*
+
+### Behavioral
+Behavioral patterns focus on improving or streamlining the communication between disparate objects in a system.
+
+Patterns: *Iterator, Mediator, Observer and Visitor*
+

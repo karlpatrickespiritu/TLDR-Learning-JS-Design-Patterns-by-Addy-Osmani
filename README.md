@@ -3,8 +3,6 @@
 
 My **TL;DR** for the book [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#designpatternsjavascript) by [Addy Osmani](https://github.com/addyosmani)
 
-Note: I'm still reading the book :)
-
 # Anti-Patterns
 - Bad solution to a particular problem. 
 - Knowledge of anti-patterns is critical for success. Once we are able to recognize such anti-patterns, we're able to refactor our code to negate them so that the overall quality of our solutions improves instantly.

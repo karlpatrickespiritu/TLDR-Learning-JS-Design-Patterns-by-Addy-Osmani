@@ -28,3 +28,5 @@ Object constructors are used to create specific types of objects - both preparin
     })()
 
 ```
+
+*For complete reference, click [here]*(http://addyosmani.com/resources/essentialjsdesignpatterns/book/#constructorpatternjavascript).

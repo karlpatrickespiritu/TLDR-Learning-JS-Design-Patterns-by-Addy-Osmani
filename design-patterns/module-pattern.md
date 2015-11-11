@@ -44,3 +44,10 @@ When working with the Module pattern, we may find it useful to define a simple t
     console.log(myNamespace)
 
 ```
+
+### Advantages
+- it supports encapsulation of data
+- it's a lot cleaner for developers coming from an object-oriented background than the idea of true encapsulation, at least from a JavaScript perspective.
+
+### Disadvantages
+- inability to create automated unit tests for private members and additional complexity when bugs require hot fixes.

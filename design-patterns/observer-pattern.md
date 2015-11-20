@@ -87,7 +87,48 @@ var pubsub = {};
 }( pubsub ));
 ```
 
+`Example: Using Our Implementation`
+
+``` javascript
+// Another simple message handler
+ 
+// A simple message logger that logs any topics and data received through our
+// subscriber
+var messageLogger = function ( topics, data ) {
+    console.log( "Logging: " + topics + ": " + data );
+};
+ 
+// Subscribers listen for topics they have subscribed to and
+// invoke a callback function (e.g messageLogger) once a new
+// notification is broadcast on that topic
+var subscription = pubsub.subscribe( "inbox/newMessage", messageLogger );
+ 
+// Publishers are in charge of publishing topics or notifications of
+// interest to the application. e.g:
+ 
+pubsub.publish( "inbox/newMessage", "hello world!" );
+ 
+// or
+pubsub.publish( "inbox/newMessage", ["test", "a", "b", "c"] );
+ 
+// or
+pubsub.publish( "inbox/newMessage", {
+  sender: "hello@google.com",
+  body: "Hey again!"
+});
+ 
+// We can also unsubscribe if we no longer wish for our subscribers
+// to be notified
+pubsub.unsubscribe( subscription );
+ 
+// Once unsubscribed, this for example won't result in our
+// messageLogger being executed as the subscriber is
+// no longer listening
+pubsub.publish( "inbox/newMessage", "Hello! are you still there?" );
+```
+
 *Example: Decoupling applications using Ben Alman's Pub/Sub implementation*
+
 ```javascript
 ;(function( $ ) {
  
@@ -137,70 +178,6 @@ var pubsub = {};
     $.publish( "/new/rating", { title: strMovie, rating: strRating} );
  
     });
- 
-})( jQuery );
-```
-
-*Example: Decoupling an Ajax-based jQuery application*
-
-```javascript
-;(function( $ ) {
- 
-   // Pre-compile template and "cache" it using closure
-   var resultTemplate = _.template($( "#resultTemplate" ).html());
- 
-   // Subscribe to the new search tags topic
-   $.subscribe( "/search/tags", function( e, tags ) {
-       $( "#lastQuery" )
-                .html("<p>Searched for:<strong>" + tags + "</strong></p>");
-   });
- 
-   // Subscribe to the new results topic
-   $.subscribe( "/search/resultSet", function( e, results ){
- 
-       $( "#searchResults" ).empty().append(resultTemplate( results ));
- 
-   });
- 
-   // Submit a search query and publish tags on the /search/tags topic
-   $( "#flickrSearch" ).submit( function( e ) {
- 
-       e.preventDefault();
-       var tags = $(this).find( "#query").val();
- 
-       if ( !tags ){
-        return;
-       }
- 
-       $.publish( "/search/tags", [ $.trim(tags) ]);
- 
-   });
- 
- 
-   // Subscribe to new tags being published and perform
-   // a search query using them. Once data has returned
-   // publish this data for the rest of the application
-   // to consume
- 
-   $.subscribe("/search/tags", function( e, tags ) {
- 
-       $.getJSON( "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?", {
-              tags: tags,
-              tagmode: "any",
-              format: "json"
-            },
- 
-          function( data ){
- 
-              if( !data.items.length ) {
-                return;
-              }
- 
-              $.publish( "/search/resultSet", { items: data.items } );
-       });
- 
-   });
- 
  
 })( jQuery );
 ```

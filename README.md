@@ -10,12 +10,12 @@ My **TL;DR** for the book [Learning JavaScript Design Patterns](http://addyosman
 - Knowledge of anti-patterns is critical for success. Once we are able to recognize such anti-patterns, we're able to refactor our code to negate them so that the overall quality of our solutions improves instantly.
 
 # Categories Of Design Pattern
-### Structural
+### Creational
 Creational design patterns focus on handling object creation mechanisms where objects are created in a manner suitable for the situation we're working in.
 
 Patterns: *Constructor, Factory, Abstract, Prototype, Singleton and Builder*
 
-### Creational
+### Structural
 Structural patterns are concerned with object composition and typically identify simple ways to realize relationships between different objects.
 
 Patterns:  *Iterator, Mediator, Observer and Visitor*

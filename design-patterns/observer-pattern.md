@@ -87,9 +87,9 @@ var pubsub = {};
         return this;
     };
 }( pubsub ));
-```
 
-`Example: Using Our Implementation`
+```
+*Example: Using Our Implementation*
 
 ``` javascript
 // Another simple message handler

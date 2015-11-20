@@ -19,7 +19,7 @@ Whilst very similar, there are differences between these patterns worth noting.
 
 The minimalist version of Publish/Subscribe I released on GitHub under a project called [pubsubz](http://github.com/addyosmani/pubsubz). This demonstrates the core concepts of subscribe, publish as well as the concept of unsubscribing.
 
-```
+```javascript
 var pubsub = {};
  
 (function(myObject) {

@@ -1,4 +1,4 @@
-### Singleton Pattern
+# Singleton Pattern
 
 For complete reference, click [here](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#singletonpatternjavascript).
 

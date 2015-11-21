@@ -1,4 +1,4 @@
-### Observer Pattern
+# Observer Pattern
 
 For complete reference, click [here](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript).
 

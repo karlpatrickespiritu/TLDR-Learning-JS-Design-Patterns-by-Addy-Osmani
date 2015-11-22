@@ -1,6 +1,6 @@
 # Command Pattern
 
-For complete reference, click [here](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#commandpatternjavascript).
+For complete reference, click [here](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#decoratorpatternjavascript).
 
 ### TL;DR
 

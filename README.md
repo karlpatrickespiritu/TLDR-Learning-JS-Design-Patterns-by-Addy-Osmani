@@ -34,4 +34,5 @@ Patterns: *Iterator, Mediator, Observer and Visitor*
 - [Mediator Pattern](https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani/tree/master/design-patterns/mediator-pattern.md)
 - [Prototype Pattern](https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani/tree/master/design-patterns/prototype-pattern.md)
 - [Command Pattern](https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani/tree/master/design-patterns/command-pattern.md)
+- [Facade Pattern](https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani/tree/master/design-patterns/facade-pattern.md)
 - ..... still reading the book :)

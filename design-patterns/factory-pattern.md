@@ -8,7 +8,7 @@ The Factory pattern is another creational pattern concerned with the notion of c
 
 This pattern is particularly useful if the object creation process is relatively complex, e.g. if it strongly depends on dynamic factors or application configuration.
 
-#### Example
+###Example
 
 ```javascript
 // Types.js - Constructors used behind the scenes
@@ -74,7 +74,7 @@ console.log( car instanceof Car );
 // Outputs: Car object of color "yellow", doors: 6 in a "brand new" state
 console.log( car );
 ```
-*Approach #1: Modify a VehicleFactory instance to use the Truck class*
+***Approach #1: Modify a VehicleFactory instance to use the Truck class***
 
 ```javascript
 var movingTruck = carFactory.createVehicle( {
@@ -93,7 +93,7 @@ console.log( movingTruck instanceof Truck );
 console.log( movingTruck );
 ```
 
-*Approach #2: Subclass VehicleFactory to create a factory class that builds Trucks*
+***Approach #2: Subclass VehicleFactory to create a factory class that builds Trucks***
 
 ```javascript
 function TruckFactory () {}

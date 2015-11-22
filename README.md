@@ -1,7 +1,7 @@
 
 # TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani
 
-My **TL;DR** for the book [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#designpatternsjavascript) by [Addy Osmani](https://github.com/addyosmani)
+A **too long; didn't read** summary of the book [Learning JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/#designpatternsjavascript) by [Addy Osmani](https://github.com/addyosmani)
 
 [![img](http://akamaicovers.oreilly.com/images/0636920025832/cat.gif)](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 
@@ -35,4 +35,6 @@ Patterns: *Iterator, Mediator, Observer and Visitor*
 - [Prototype Pattern](https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani/tree/master/design-patterns/prototype-pattern.md)
 - [Command Pattern](https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani/tree/master/design-patterns/command-pattern.md)
 - [Facade Pattern](https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani/tree/master/design-patterns/facade-pattern.md)
+- [Decorator Pattern](https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani/tree/master/design-patterns/decorator-pattern.md)
+- ..... still reading the book :)
 - ..... still reading the book :)

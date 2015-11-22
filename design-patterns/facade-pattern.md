@@ -32,8 +32,5 @@ bindReady: function() {
 
 This is another example of a Facade, where the rest of the world simply uses the limited interface exposed by `$(document).ready(..)` and the more complex implementation powering it is kept hidden from sight.
 
-### Advantages
-Facades gives users a level of abstraction in which they only have to call abstracted methods for something to work without having to know what's going on internally.
-
 ### Disadvantages
 Facades generally have few disadvantages, but one concern worth noting is performance. Namely, one must determine whether there is an implicit cost to the abstraction a Facade offers to our implementation and if so, whether this cost is justifiable.

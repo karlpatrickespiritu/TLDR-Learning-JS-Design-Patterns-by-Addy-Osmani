@@ -9,6 +9,6 @@
 - [Command Pattern](https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani/tree/master/design-patterns/command-pattern.md)
 - [Facade Pattern](https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani/tree/master/design-patterns/facade-pattern.md)
 - [Factory Pattern](https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani/tree/master/design-patterns/factory-pattern.md)
-- [Decorator Pattern](https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani/tree/master/design-patterns/decorator-pattern.md)
 - [Mixin Pattern](https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani/tree/master/design-patterns/mixin-pattern.md)
+- [Decorator Pattern](https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani/tree/master/design-patterns/decorator-pattern.md)
 - ..... still reading the book :)

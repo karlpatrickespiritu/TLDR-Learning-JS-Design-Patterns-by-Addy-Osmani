@@ -12,10 +12,11 @@ Object constructors are used to create specific types of objects - both preparin
         this.model = model;
         this.year = year;
         this.miles = miles;
-        this.toString  = function () {
-            return this.model + " has done " + this.miles + " miles";
-        };
     }
+
+    Car.prototype.toString = function () {
+        return this.model + " has done " + this.miles + " miles";
+    };
 
     // We can create new instances of the car
     var civic = new Car("Honda Civic", 2009, 20000);
@@ -28,20 +29,5 @@ Object constructors are used to create specific types of objects - both preparin
     console.log(mondeo.toString());
 
 ```
-Above, toString() method will be redefined at every object creation. To avoid it, use Prototypes.
 
-```javascript
-
-    function Car(model, year, miles) {
-        this.model = model
-        this.year = year
-        this.miles = miles
-    }
-    
-    Car.prototype.toString = function () { 
-        return this.model + " has done " + this.miles + " miles";
-    };
-    
-```
-
-Now a single instance of toString() will now be shared between all of the Car objects.
+Above, a single instance of toString() will now be shared between all of the Car objects.

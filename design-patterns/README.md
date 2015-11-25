@@ -11,4 +11,5 @@
 - [Factory Pattern](https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani/tree/master/design-patterns/factory-pattern.md)
 - [Mixin Pattern](https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani/tree/master/design-patterns/mixin-pattern.md)
 - [Decorator Pattern](https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani/tree/master/design-patterns/decorator-pattern.md)
+- [Flyweight Pattern](https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani/tree/master/design-patterns/flyweight-pattern.md)
 - ..... still reading the book :)

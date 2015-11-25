@@ -42,7 +42,7 @@ Patterns: *Iterator, Mediator, Observer and Visitor*
 
 MORE TL;DR TOPICS TO COME! :)
 
-### Contributing
+# Contributing
 
 Don't be shy! Lets make the docs better to help out our other fellow devs to learn design patterns in JavaScript.
 

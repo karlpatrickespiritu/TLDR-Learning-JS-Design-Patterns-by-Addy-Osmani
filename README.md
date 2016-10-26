@@ -40,8 +40,6 @@ Patterns: *Iterator, Mediator, Observer and Visitor*
 - [Decorator Pattern](https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani/tree/master/design-patterns/decorator-pattern.md)
 - [Flyweight Pattern](https://github.com/karlpatrickespiritu/TLDR-Learning-JS-Design-Patterns-by-Addy-Osmani/tree/master/design-patterns/flyweight-pattern.md)
 
-MORE TL;DR TOPICS TO COME! :)
-
 # Contributing
 
 Don't be shy! Lets make the docs better to help out our other fellow devs to learn design patterns in JavaScript.
